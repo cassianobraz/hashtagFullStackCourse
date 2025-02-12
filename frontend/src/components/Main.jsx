@@ -6,10 +6,22 @@ export const Main = () => {
   return (
     <div className="main">
       {/* Item list the artists */}
-      <ItemList title="Artistas" items={5} ItemsArray={artistArray} path="/artists" />
+      <ItemList
+        title="Artistas"
+        items={5}
+        ItemsArray={artistArray}
+        path="/artists"
+        idPath="/artist"
+      />
 
       {/* Item list the musics */}
-      <ItemList title="Músicas" items={10} ItemsArray={songsArray} path="/songs" />
+      <ItemList
+        title="Músicas"
+        items={10}
+        ItemsArray={songsArray}
+        path="/songs"
+        idPath="/song"
+      />
     </div>
   )
 }
