@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCirclePlay } from '@fortawesome/free-regular-svg-icons/faCirclePlay'
+import { FaPlayCircle } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 export const SingleItem = ({ id, name, image, banner, artist, idPath }) => {
@@ -13,7 +12,7 @@ export const SingleItem = ({ id, name, image, banner, artist, idPath }) => {
             alt={`Imagem do Artista ${name}`}
           />
         </div>
-        <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
+        <FaPlayCircle className="single-item__icon" />
       </div>
       <div className="single-item__texts">
         <div className="single-item__2lines">
