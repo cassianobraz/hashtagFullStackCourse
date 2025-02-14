@@ -1,3 +1,3 @@
-# https://www.youtube.com/watch?v=oPLOZfqk7qQ
+# https://www.youtube.com/watch?v=6PwcILaFgCc&list=PLpdAy0tYrnKwPfoTG279hav-nbYdyzQMp
 
-## 1:37:15
+## 1:44:49

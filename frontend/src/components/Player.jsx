@@ -23,6 +23,8 @@ export const Player = ({ duration, randomIdFromArtist, randomId2FromArtist }) =>
         </div>
         <p>{duration}</p>
       </div>
+
+      <audio src=""></audio>
     </div>
   )
 }
